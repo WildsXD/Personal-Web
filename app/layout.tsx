@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'WildDev',
-  description: 'Created by WildDev',
+  description: 'Dibuat oleh WildDev',
   generator: 'WildDev',
 }
 
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body>{children}</body>
     </html>
   )
